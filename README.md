@@ -5,7 +5,7 @@
 <br>
 
 >Health care website built using ReactJS,materialUi, chartJS, Leaftate...<br>
-> App made for Web-O-Code (BVEST) hackethon. 
+> App made for Web-O-Code (BVEST) hackathon. 
 
 ## ⚙️ Detailed Functionality
 * Theme is about Health Care.
