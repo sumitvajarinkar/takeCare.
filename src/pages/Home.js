@@ -21,14 +21,14 @@ const Home = () => {
           <i className="fas fa-heartbeat" /> Take Care.{" "}
         </Link>
         <nav className="navbar">
-          <a href="/home">Home</a>
-          <a href="/overview">Overview</a>
-          <a href="/symptoms">Symptoms</a>
-          <a href="/precautions">Precautions</a>
-          <a href="/blogs">Blogs</a>
-          <a href="/book">Talks</a>
-          <a href="/about">About us</a>
-          <a href="/tracker">Covid tracker</a>
+          <a href="#home">Home</a>
+          <a href="#overview">Overview</a>
+          <a href="#symptoms">Symptoms</a>
+          <a href="#precautions">Precautions</a>
+          <a href="#blogs">Blogs</a>
+          <a href="#book">Talks</a>
+          <a href="#about">About us</a>
+          <a href="#tracker">Covid tracker</a>
         </nav>
         <div id="menu-btn" className="fas fa-bars" />
       </header>
@@ -355,7 +355,7 @@ const Home = () => {
               covid tracker which tracks cases in overall world as well as in
               India.
             </p>
-            <a href="/tracker" className="btn">
+            <a href="#tracker" className="btn">
               {" "}
               Covid tracker <span className="fas fa-chevron-right" />{" "}
             </a>
