@@ -44,7 +44,6 @@ const Home = () => {
           <p>Self-care guide to take care of yourself and your loved ones !</p>
           <a
             href="https://www.mygov.in/covid-19/"
-            target="_blank"
             className="btn"
           >
             {" "}
@@ -242,7 +241,6 @@ const Home = () => {
               </p>
               <a
                 href="https://www.bannerhealth.com/healthcareblog/better-me/6-ways-to-overcome-fomo-after-social-isolation"
-                target="_blank"
                 className="btn"
               >
                 {" "}
@@ -273,7 +271,6 @@ const Home = () => {
               </p>
               <a
                 href="https://www.bannerhealth.com/healthcareblog/better-me/this-relentless-pandemic-can-tax-your-mental-health-heres-how-to-cope"
-                target="_blank"
                 className="btn"
               >
                 {" "}
@@ -298,13 +295,12 @@ const Home = () => {
               </div>
               <h3>Keeping Kids Healthy Going Back to School</h3>
               <p>
-                Your child is all packed and ready to go! Pencils? ✅ Notebooks?
-                ✅ Backpack? ✅ Water bottle? ✅ Health? Check?? As a parent,
+                Your child is all packed and ready to go! Pencils? <span>✅</span> Notebooks?
+                <span>✅</span> Backpack? <span>✅</span> Water bottle? <span>✅</span> Health? Check?? As a parent,
                 you want to do everything in..
               </p>
               <a
                 href="https://www.bannerhealth.com/healthcareblog/advise-me/back-to-school-back-to-germs"
-                target="_blank"
                 className="btn"
               >
                 {" "}
