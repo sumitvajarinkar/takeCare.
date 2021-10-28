@@ -9,25 +9,26 @@ import img6 from "../assets/symp3.jpg";
 import img7 from "../assets/blog1.jfif";
 import img8 from "../assets/blog2.jpg";
 import img9 from "../assets/blog3.jpg";
+import {Link} from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
       {/* header section starts  */}
       <header className="header">
-        <a href="#" className="logo">
+        <Link to="/" className="logo">
           {" "}
           <i className="fas fa-heartbeat" /> Take Care.{" "}
-        </a>
+        </Link>
         <nav className="navbar">
-          <a href="#home">Home</a>
-          <a href="#overview">Overview</a>
-          <a href="#symptoms">Symptoms</a>
-          <a href="#precautions">Precautions</a>
-          <a href="#blogs">Blogs</a>
-          <a href="#book">Talks</a>
-          <a href="#about">About us</a>
-          <a href="#tracker">Covid tracker</a>
+          <a href="/home">Home</a>
+          <a href="/overview">Overview</a>
+          <a href="/symptoms">Symptoms</a>
+          <a href="/precautions">Precautions</a>
+          <a href="/blogs">Blogs</a>
+          <a href="/book">Talks</a>
+          <a href="/about">About us</a>
+          <a href="/tracker">Covid tracker</a>
         </nav>
         <div id="menu-btn" className="fas fa-bars" />
       </header>
@@ -222,11 +223,11 @@ const Home = () => {
             </div>
             <div className="content">
               <div className="icon">
-                <a href="#">
+                <a href="/">
                   {" "}
                   <i className="fas fa-calendar" /> Sep 12, 2021{" "}
                 </a>
-                <a href="#">
+                <a href="/">
                   {" "}
                   <i className="fas fa-user" /> by Regan Olsson{" "}
                 </a>
@@ -255,11 +256,11 @@ const Home = () => {
             </div>
             <div className="content">
               <div className="icon">
-                <a href="#">
+                <a href="/">
                   {" "}
                   <i className="fas fa-calendar" /> Sep 15, 2021{" "}
                 </a>
-                <a href="#">
+                <a href="/">
                   {" "}
                   <i className="fas fa-user" /> by Stephanie Thurrott{" "}
                 </a>
@@ -286,11 +287,11 @@ const Home = () => {
             </div>
             <div className="content">
               <div className="icon">
-                <a href="#">
+                <a href="/">
                   {" "}
                   <i className="fas fa-calendar" /> Sep 01, 2021{" "}
                 </a>
-                <a href="#">
+                <a href="/">
                   {" "}
                   <i className="fas fa-user" /> by Regan Olsson{" "}
                 </a>
@@ -331,7 +332,7 @@ const Home = () => {
             <input type="number" placeholder="Your number" className="box" />
             <input type="email" placeholder="Your email" className="box" />
             <input type="date" className="box" />
-            <a href="#"><input type="submit" defaultValue="book now" className="btn" /></a>
+            <a href="/"><input type="submit" defaultValue="book now" className="btn" /></a>
           </form>
         </div>
       </section>
@@ -359,7 +360,7 @@ const Home = () => {
               covid tracker which tracks cases in overall world as well as in
               India.
             </p>
-            <a href="#tracker" className="btn">
+            <a href="/tracker" className="btn">
               {" "}
               Covid tracker <span className="fas fa-chevron-right" />{" "}
             </a>
