@@ -11,6 +11,7 @@ body {
   justify-content: space-evenly;
   background-color: #f5f6fa;
   padding: 20px;
+  margin-top: 5rem;
 }
 
 .app__dropdown {
@@ -26,7 +27,7 @@ body {
 
 .app__header > h1 {
   color: #fc3c3c;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .app__stats {

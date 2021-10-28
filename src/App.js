@@ -14,6 +14,8 @@ import { sortData, prettyPrintStat } from "./components/util";
 import numeral from "numeral";
 import Map from "./components/Map";
 import "leaflet/dist/leaflet.css";
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Home from "./pages/Home";
 
 const App = () => {
   const [country, setInputCountry] = useState("worldwide");
@@ -72,7 +74,11 @@ const App = () => {
   };
 
   return (
-    <div className="app">
+  <>
+   <Router>
+   <Route path="/" component={Home}/>
+   </Router>
+    <div className="app" id="tracker">
       <div className="app__left">
         <div className="app__header">
           <h1>COVID-19 Tracker</h1>
@@ -132,6 +138,7 @@ const App = () => {
         </CardContent>
       </Card>
     </div>
+   </>
   );
 };
 
