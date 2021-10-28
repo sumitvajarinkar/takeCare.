@@ -295,8 +295,7 @@ const Home = () => {
               </div>
               <h3>Keeping Kids Healthy Going Back to School</h3>
               <p>
-                Your child is all packed and ready to go! Pencils? <span>✅</span> Notebooks?
-                <span>✅</span> Backpack? <span>✅</span> Water bottle? <span>✅</span> Health? Check?? As a parent,
+                Your child is all packed and ready to go! Pencils? Notebooks? Backpack? Water bottle? Health? Check?? As a parent,
                 you want to do everything in..
               </p>
               <a
