@@ -1,3 +1,45 @@
+# Take Care.
+<div align="center">
+  <img width="200px" src="https://img.icons8.com/external-inipagistudio-lineal-color-inipagistudio/2x/external-heartbeat-medical-test-inipagistudio-lineal-color-inipagistudio.png"/>
+</div>
+<br>
+
+>Health care website built using ReactJS,materialUi, chartJS, Leaftate...<br>
+> App made for Web-O-Code (BVEST) hackethon. 
+
+## ⚙️ Detailed Functionality
+* Theme is about Health Care.
+* Theme is about health care so we have focused on covid-19
+* Landing page gives all the info about covid-19 like precautions, symptoms etc.
+* It has also a live tracker which gives live updates of covid-19 cases.
+* User can fetch data according to the country. 
+* User can get data in visual form like chart and maps.
+* We have use three different APIs for covid tracker.
+ 
+## 🚀 Tech and Tools Used
+
+* React.JS, Material UI, React icons, Axios, ChartJS, React-leaflet...
+* VS code
+* Netlify
+
+
+## 📸 Screenshots
+
+## Covid Tracker
+<img src="./public/tracker.png" width='800' height='auto'>
+<br>
+
+## Landing page
+<img src="./public/landing.png" width='800' height='auto'>
+<br>
+
+## Mobile View
+<img src="./public/mobile.png" width='400' height='auto'>
+<br>
+
+### Deployment Link : https://takecaredot.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
